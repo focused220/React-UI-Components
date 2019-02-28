@@ -4,7 +4,7 @@ import CardContent from './CardContent';
 
 function CardContainer(){
     return(
-        <section class="card-container">
+        <section className="card-container">
         <CardContent />
         </section>
     );

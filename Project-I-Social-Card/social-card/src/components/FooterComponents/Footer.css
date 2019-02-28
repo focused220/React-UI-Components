@@ -1,0 +1,18 @@
+body #root .card footer .icons img {
+    width: 20px;
+    height: 20px;
+    opacity: .5;
+}
+
+body #root .card footer .icons img:hover{
+    cursor: pointer;
+}
+
+body #root .card footer .icons {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 12%;
+     
+}
