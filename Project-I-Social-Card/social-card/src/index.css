@@ -1,5 +1,16 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0.4rem;
   font-family: sans-serif;
+  background-color: black;
+  max-width: 100%;
+  font-size: 62.5%;
+}
+
+body #root .card{
+  width: 60%;
+  border: 1px solid white;
+  background-color: white;
+  margin: 25% auto;
+  
 }

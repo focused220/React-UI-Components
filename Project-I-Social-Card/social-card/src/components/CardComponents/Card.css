@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+
+body #root .card .card-container{
+    
+}
+
+body #root .card .card-container .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+    
+}
+
+body #root .card .card-container .card-content .favico{
+    width: 95%;
+    padding-right: 4%;
+}
+
+body #root .card .card-container .card-content div h2{
+    font-size: .8rem;
+    font-weight: 900;
+    margin-bottom: -2%;
+}
+
+body #root .card .card-container .card-content div p{
+    font-size: .8rem;
+    margin-bottom: 1%;
+}
+
+body #root .card .card-container .card-content div address{
+    font-size: .8rem;
+    font-style: normal;
+    color: grey;
+    padding-bottom: 2%;
+}
