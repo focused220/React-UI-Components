@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+body #root .card .header{
+    display: flex;
+
+}
+
+body #root .card .header .logo{
+    width: 5%;
+    height: 10%;
+    padding-right: 2%;
+}
+
+body #root .card .header .header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+body #root .card .header .header-content .top-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;    
+}
+body #root .card .header .header-content .top-row h1{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+body #root .card .header .header-content .top-row span{
+    color: white;
+
+}
+body #root .card .header .header-content .top-row p{
+    font-size: .8rem;
+    color: grey;
+}
+
+body #root .card .header .header-content p{
+    font-size: .8rem;
+}
+
